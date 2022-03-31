@@ -33105,5 +33105,39 @@ code.hljs{padding:3px 5px}
 
 .hljs-link{text-decoration:underline}
 
+.mx_EventTile_body {
+    font-weight: bold;
+}
+
+.mx_ReplyPreview {
+    background: rgba(21, 25, 30, 0.5);
+    border: 1px solid darkred;
+    border-radius: 8px;
+}
+
+.mx_ReplyPreview_section {
+    font-weight: bold !important;
+}
+
+.mx_ReplyPreview_header {
+    font-weight: bold !important;
+}
+
+.mx_ReplyTile a {
+    font-weight: bold !important;
+}
+
+.mx_SenderProfile {
+    font-weight: bold !important;
+}
+
+body {
+    color: red;
+    font-weight: bold !important;
+}
+
+.mx_EventTile {
+    color: white;
+}
 
 /*# sourceMappingURL=theme-dark.css.map*/
