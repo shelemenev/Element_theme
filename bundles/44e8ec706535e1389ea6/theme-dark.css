@@ -1196,11 +1196,11 @@ legend {
 }
 
 .mx_Username_color3 {
-    color: #0DBD8B;
+    color: yellow;
 }
 
 .mx_Username_color4 {
-    color: #e64f7a;
+    color: skyblue;
 }
 
 .mx_Username_color5 {
@@ -22903,11 +22903,12 @@ limitations under the License.
 
 .mx_EventTile[data-layout=bubble].mx_EventTile_highlight::before {
             background-color: #25271F;
+            opacity: 0;
         }
 
 .mx_EventTile[data-layout=bubble].mx_EventTile_highlight {
 
-        color: #FF5B55;
+        color: #FFFFFF;
 }
 
 /* For replies */
@@ -23192,6 +23193,8 @@ limitations under the License.
             -webkit-box-shadow: 0 0 0 3px #15191E;
                     box-shadow: 0 0 0 3px #15191E;
             border-radius: 50%;
+            width: 40px !important;
+            height: 40px !important;
         }
 
 .mx_EventTile[data-layout=bubble].mx_EventTile_noSender .mx_EventTile_avatar {
@@ -24130,6 +24133,8 @@ limitations under the License.
     border-left: 2px solid #dddddd;
     border-radius: 2px;
     padding: 0 10px;
+    font-style: italic;
+    color: black;
 }
 
 /*
@@ -26626,7 +26631,7 @@ limitations under the License.
     position: relative;
     padding: 2px 0;
     font-size: 1.4rem;
-    line-height: 1.6rem;
+    line-height: 1.2rem;
 }
 
 .mx_ReplyTile.mx_ReplyTile_audio .mx_MFileBody_info_icon::before {
@@ -26656,7 +26661,8 @@ limitations under the License.
             -ms-flex-direction: column;
                 flex-direction: column;
         text-decoration: none;
-        color: #ffffff;
+        color: black;
+        font-style: italic;
     }
 
 .mx_ReplyTile .mx_RedactedBody,
